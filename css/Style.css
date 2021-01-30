@@ -1,0 +1,87 @@
+@import url('../css/fonts.css');
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    --text-orange: #ffa500;
+    --text-gray: #ffa500;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --Lexend: 'Lexend', cursive;
+
+}
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+button.btn{
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+}
+.container{
+    margin: 0 5vw;
+}
+.text-gray{
+    color: var(--text-gray);
+}
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{    
+    justify-content: space-between;
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Lexend);
+    font-size: 1.6rem;
+}
+main .site-title{
+    background: url('../assets/Background-image.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
